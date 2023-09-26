@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding:ActivityMainBinding
     private lateinit var drawerLayout:DrawerLayout
     private lateinit var actionBarDrawerToggle:ActionBarDrawerToggle
-    val homeFragment = Home()
+    val homeFragment = Home<Any>()
     val personFragment = Person()
     val settingsFragment = Settings()
     override fun onCreate(savedInstanceState: Bundle?) {
